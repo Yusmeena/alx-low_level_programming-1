@@ -1,15 +1,15 @@
 #include "main.h"
-
 /**
- * _strlen - returns the length of a string.
- * @s: input string.
- * Return: length of a string.
+ * _strlen - gets character string
+ *
+ * @s: character to getstring
+ * Return: returns length
  */
 int _strlen(char *s)
 {
-	int count = 0;
+	int i;
 
-	while (*(s + count) != '\0')
-		count++;
-	return (count);
+	for (i = 0; s[i] != '\0'; i++)
+	{}
+	return (i);
 }
