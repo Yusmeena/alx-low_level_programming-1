@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - prints a line followed by a new line
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -21,4 +25,3 @@ p = &n;
 printf("a[2] = %d\n", a[2]);
 return (0);
 }
-
