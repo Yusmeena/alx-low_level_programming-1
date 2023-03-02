@@ -1,1 +1,3 @@
-No arguments passed.
+
+========== 102-magic.c ==========
+main
