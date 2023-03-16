@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-
+#include <ctype.h>
 
 #define ERR_MSG "Error"
 
