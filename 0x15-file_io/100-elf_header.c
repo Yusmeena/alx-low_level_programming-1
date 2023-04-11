@@ -1,10 +1,7 @@
-/*
- * File: 100-elf_header.c
- * Auth: edwin nyongesa
- */
-
-#include "main.h"
+#include <elf.h>
+#include <sys/types.h>
 #include <sys/stat.h>
+#include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
