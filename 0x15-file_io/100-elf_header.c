@@ -1,12 +1,10 @@
 /*
  * File: 100-elf_header.c
- * Auth: Brennan D Baraban
+ * Auth: edwin nyongesa
  */
 
-#include <elf.h>
-#include <sys/types.h>
+#include "main.h"
 #include <sys/stat.h>
-#include <fcntl.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
